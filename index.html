@@ -1,8 +1,77 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+       <style>
+        section
+        {
+            background-color: rgb(122, 66, 106);
+            margin: 50px;
+        }
+        .item3
+        {
+            background-color: darkgreen;
+            position: absolute;
+        }
+        .item2
+        {
+            background-color: hotpink;
+            position: relative;
+            top: 25px;
+            left: 40px;
+        }
+        .item{
+           border: 1cm;
+
+        }
+        .wrapper
+        {
+            display: grid;
+            border: 1cm;
+            grid-template-columns: 10rem 10rem 10rem 10rem 10rem ;
+            grid-gap: 1rem;
+        }
+        img{
+            transition-property: width;
+            transition-duration: 5s;
+        }
+        
+       </style>
+    </head>
     <body>
-        <h1>Feedback</h1>
-        <p>Hey,I like this concept</p>
+        <!-- <script>
+            function prime(a)
+{
+        if(a==0||a==1)
+        {
+            console.log("Neither composite or prime");
+            return;
+        }
+        for(let x=2;x<a;x++)
+        {
+            if(a%x==0)
+            {
+                console.log("It is not prime number");
+                return;
+            }
+        }
+        console.log("It is prime number");
+}
+let n= prompt("Enter the number ");
+prime(5);
+        </script> -->
+          <section>
+            <table>
+            <div class="wrapper">
+            <div class="item"><img src="https://tse1.mm.bing.net/th?id=OIP.Nfd-_b2A1A1D6AsvReUmgAHaEc&pid=Api&P=0&h=220" width="100%"></div>
+            <div class="item"><img src= "https://tse1.mm.bing.net/th?id=OIP.Nfd-_b2A1A1D6AsvReUmgAHaEc&pid=Api&P=0&h=220"width="100%"></div>
+            <div class="item"><img src="https://tse1.mm.bing.net/th?id=OIP.Nfd-_b2A1A1D6AsvReUmgAHaEc&pid=Api&P=0&h=220"width="100%"></div>
+            <div class="item"><img src="https://tse1.mm.bing.net/th?id=OIP.Nfd-_b2A1A1D6AsvReUmgAHaEc&pid=Api&P=0&h=220"width="100%"></div>
+            <div class="item"><img src="https://tse1.mm.bing.net/th?id=OIP.Nfd-_b2A1A1D6AsvReUmgAHaEc&pid=Api&P=0&h=220"width="100%"></div>
+            <div class="item"><img src="https://tse1.mm.bing.net/th?id=OIP.Nfd-_b2A1A1D6AsvReUmgAHaEc&pid=Api&P=0&h=220"width="100%"></div>
+            <div class="item"><img src="https://tse1.mm.bing.net/th?id=OIP.Nfd-_b2A1A1D6AsvReUmgAHaEc&pid=Api&P=0&h=220"width="100%"></div>
+           
+        </div>
+        </table>
+        </section>
     </body>
 </html>
